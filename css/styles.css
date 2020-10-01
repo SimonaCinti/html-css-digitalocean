@@ -179,8 +179,9 @@ form .submit-button:nth-of-type(2):hover{
 
 /* MAIN | platforms | image wrapper */
 
-.img-wrapper li {
-   width: calc(100% / 2 - 5px);
+.img-wrapper li a {
+    display: inline-block;
+   width: calc(100% / 6 - 5px);
 }
 
 .img-wrapper img{
