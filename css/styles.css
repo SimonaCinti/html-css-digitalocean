@@ -3,6 +3,10 @@ body {
 }
 
 
+/* Typography */
+
+
+
 /* Buttons */
 
 .btn-default{
@@ -41,5 +45,29 @@ ul.nav-list  li {
 
 .jumbotron {
     background-image: url(../img/bg-banner-home.jpg);
-    height: 800px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.jumbotron .row{
+    margin: 0 auto;
+}
+
+
+.jumbotron .title-text h1 {
+    color: white;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.jumbotron .title-text p{
+    color: white;
+    font-size: 18px;
+}
+
+/*  HEADER | Jumbotron | form */
+
+.form-jumbotron{
+    background-color: white;
+    border-radius: 5px;
 }
