@@ -1,3 +1,19 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/* HEADER | Nav Bar */
+
+.navbar-brand img {
+    width:150px;
+}
+
+.navbar-header [type="button"]{
+    border-color:  white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: #3a8aff;
+    height: 3px;
+
+}
