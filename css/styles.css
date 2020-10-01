@@ -4,6 +4,10 @@ body {
 
 /* HEADER | Nav Bar */
 
+.navbar-brand{
+    padding-top: 9px;
+}
+
 .navbar-brand img {
     width:150px;
 }
