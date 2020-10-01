@@ -127,4 +127,28 @@ form{
     opacity: 0.8;
 }
 
+.submit-button:nth-of-type(1) {
+    background-color: #579aff;
+    color: white;
+    border-color:#b5d2ff;
+    font-weight: bold;
+}
 
+form .submit-button:nth-of-type(1):hover{
+    background-color: #0248ff;
+}
+.submit-button:nth-of-type(2) {
+    color: #757575;
+    border-color:#b5d2ff;
+    font-weight: bold;
+}
+
+form .submit-button:nth-of-type(2):hover{
+    background-color: hsl(224, 7%, 32%);
+    color:white;
+}
+
+.privacy a{
+    text-decoration: underline;
+    color: #006aff;
+}
