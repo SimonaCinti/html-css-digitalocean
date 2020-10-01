@@ -5,6 +5,9 @@ body {
 
 /* Utilities */
 
+.inline-block{
+    display: inline-block;
+}
 
 /* Typography */
 
@@ -178,7 +181,15 @@ form .submit-button:nth-of-type(2):hover{
     margin-bottom: 50px;
 }
 
+/* MAIN | platforms | image wrapper */
 
+.img-wrapper img{
+    vertical-align: middle;
+    width:calc(100%);
+    max-width: 100%;
+    height: 80px;
+    margin: 0 auto;
+}
 
 /* ! TABLET VERSION */
 
