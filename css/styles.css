@@ -5,7 +5,18 @@ body {
 
 /* Typography */
 
+.text-darkblue{
+    color: #031c4e;
+}
 
+.text-paleblue{
+    color: #006aff;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
 /* Buttons */
 
@@ -38,7 +49,7 @@ body {
 ul.nav-list  li {
     line-height: 50px;
     font-size: 15px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 /* HEADER | Jumbotron */
@@ -53,7 +64,6 @@ ul.nav-list  li {
     margin: 0 auto;
 }
 
-
 .jumbotron .title-text h1 {
     color: white;
     font-weight: 700;
@@ -67,7 +77,18 @@ ul.nav-list  li {
 
 /*  HEADER | Jumbotron | form */
 
-.form-jumbotron{
+.col-form{
     background-color: white;
     border-radius: 5px;
+    padding: 15px;
+}
+
+.col-form h2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.col-form .privacy {
+    margin-top: 20px;
+    font-size: 12px;
 }
