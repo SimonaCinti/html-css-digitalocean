@@ -92,3 +92,26 @@ ul.nav-list  li {
     margin-top: 20px;
     font-size: 12px;
 }
+
+form {
+    margin-top:15px;
+
+}
+.form-control::placeholder {
+    color: #7b7b7b;
+    opacity: 1;
+}
+
+.form-group input {
+    border-color: #f3f3f3;
+    box-shadow: none;
+}
+
+.form-group input:focus{
+    border-color: #1776fe;
+    box-shadow: none;
+}
+
+button {
+    width: 100%;
+}
