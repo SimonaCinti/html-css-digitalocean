@@ -101,6 +101,7 @@ form{
 .submit-button{
     width: 100%;
     margin-top: 15px;
+    position: relative;
 }
 
 .form-control::placeholder {
@@ -109,14 +110,21 @@ form{
 }
 
 .form-group input {
-    /* border-color: #f3f3f3; */
-    border-color:red;
+    border-color: #f3f3f3;
     box-shadow: none;
 }
 
 .form-group input:focus{
     border-color: #1776fe;
     box-shadow: none;
+}
+
+.submit-button img {
+   height: 18px; 
+   margin: auto 0;
+    position: absolute;
+    left: 1%;
+    opacity: 0.8;
 }
 
 
