@@ -2,21 +2,37 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+/* Buttons */
+
+.btn-default{
+    color: #006aff;
+    border-color: #006aff;
+}
+
+
 /* HEADER | Nav Bar */
 
 .navigator{
     padding-top:10px;
     padding-bottom: 10px;
-    background: red;
-    height: 50px;
+    height: 70px;
 }
 
 .nav-logo-img {
     width: 150px;
+    padding-top: 15px;
 }
 
 .nav-hamburger{
     text-align: right;
     font-size: 22px;
     color: #3a8aff;
+}
+
+ul.nav-list  li {
+    line-height: 50px;
+    font-size: 15px;
+    padding-left: 20px;
+    
 }
