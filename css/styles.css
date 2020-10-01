@@ -180,13 +180,14 @@ form .submit-button:nth-of-type(2):hover{
 /* MAIN | platforms | image wrapper */
 
 .img-wrapper li {
-    width: calc(100% / 2 - 10px );
+   width: calc(100% / 2 - 5px);
 }
 
 .img-wrapper img{
+    display: inline-block;
     vertical-align: middle;
-    max-width: 50%;
-    max-height: 150px;
+    padding: 0 50px;
+    max-width: 100%;
 }
 
 /* ! TABLET VERSION */
