@@ -186,8 +186,7 @@ form .submit-button:nth-of-type(2):hover{
 .img-wrapper img{
     display: inline-block;
     vertical-align: middle;
-    max-width: 200px;
-    max-height: 160px;
+    max-width: 100%;
     
 }
 
