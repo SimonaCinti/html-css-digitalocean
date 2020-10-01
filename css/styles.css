@@ -181,13 +181,17 @@ form .submit-button:nth-of-type(2):hover{
 
 .img-wrapper li  {
     width: calc(100% / 2 - 15px);
+    margin-right: 7px;
 }
 
 .img-wrapper img{
     display: inline-block;
     vertical-align: middle;
     max-width: 100%;
-    
+}
+
+.img-wrapper .git-lab {
+    width: 100%;
 }
 
 /* ! TABLET VERSION */
