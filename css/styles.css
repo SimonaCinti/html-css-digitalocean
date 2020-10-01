@@ -5,6 +5,11 @@ body {
 
 /* Utilities */
 
+.pd-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /* Typography */
 
 .text-darkblue{
@@ -17,7 +22,7 @@ body {
 
 .h1, .h2, .h3, .h4,  h1, h2, h3, h4 {
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .jumbotron .title-text h1 {
@@ -26,11 +31,14 @@ body {
     margin-top: 0;
 }
 
-h2 {
-    font-weight: bold;
-    font-size: 25px;
+p {
+    font-size: 20px;
 }
 
+a.link-to {
+    color:#1c79fe;
+    text-decoration: none;
+}
 
 
 /* Buttons */
@@ -72,16 +80,12 @@ ul.nav-list  li {
 
 .jumbotron {
     background-image: url(../img/bg-banner-home.jpg);
-    padding-top: 50px;
-    padding-bottom: 50px;
     margin-bottom: 0;
 }
 
 .jumbotron .row{
     margin: 0 auto;
 }
-
-
 
 .jumbotron .title-text p{
     color: white;
@@ -99,6 +103,11 @@ ul.nav-list  li {
 .col-form .privacy {
     margin-top: 20px;
     font-size: 12px;
+}
+
+.col-form h2 {
+    font-weight: bold;
+    font-size: 25px;
 }
 
 form{
@@ -166,15 +175,9 @@ form .submit-button:nth-of-type(2):hover{
 
 /* MAIN | platforms */
 
-.platforms {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
 .platforms .row h4{
     font-weight: 500;
     font-size: 16px;
-    margin-bottom: 50px;
 }
 
 /* MAIN | platforms | image wrapper */
@@ -222,6 +225,4 @@ form .submit-button:nth-of-type(2):hover{
     font-size: 60px;
     }
     /* MAIN | platforms | image wrapper */
-
-    
 }
