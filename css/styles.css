@@ -1,6 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color:#6f7b97;
 }
+
+/* Utilities */
 
 
 /* Typography */
@@ -13,7 +16,7 @@ body {
     color: #006aff;
 }
 
-.h1, .h2, .h3, h1, h2, h3 {
+.h1, .h2, .h3, .h4,  h1, h2, h3, h4 {
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -72,6 +75,7 @@ ul.nav-list  li {
     background-image: url(../img/bg-banner-home.jpg);
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-bottom: 0;
 }
 
 .jumbotron .row{
@@ -152,10 +156,29 @@ form .submit-button:nth-of-type(2):hover{
     color:white;
 }
 
+.privacy {
+    color:black;
+}
+
 .privacy a{
     text-decoration: underline;
     color: #006aff;
 }
+
+/* MAIN | platforms */
+
+.platforms {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.platforms .row h4{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+
 
 /* ! TABLET VERSION */
 
