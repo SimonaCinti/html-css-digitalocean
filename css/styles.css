@@ -197,15 +197,31 @@ form .submit-button:nth-of-type(2):hover{
 /* ! TABLET VERSION */
 
 @media screen and (min-width: 768px){
+    /* HEADER | Jumbotron */
     .jumbotron .h1, .jumbotron h1{
         font-size: 36px;
+    }
+    /* MAIN | platforms | image wrapper */
+    .img-wrapper li  {
+        width: calc(100% / 6 - 15px);
+        margin-right: 7px;
+    }
+
+    .img-wrapper img{
+        vertical-align: middle;
+        display: inline-block;
+        max-width: 100%;
     }
 }
 
 /* ! DESKTOP VERSION */
 
 @media screen and (min-width: 992px){
+    /* HEADER | Jumbotron */
     .jumbotron .h1, .jumbotron h1{
     font-size: 60px;
     }
+    /* MAIN | platforms | image wrapper */
+
+    
 }
