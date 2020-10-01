@@ -23,6 +23,7 @@ body {
 .btn-default{
     color: #006aff;
     border-color: #006aff;
+    margin-top: 0;
 }
 
 
@@ -93,17 +94,23 @@ ul.nav-list  li {
     font-size: 12px;
 }
 
-form {
+form{
     margin-top:15px;
-
 }
+
+.submit-button{
+    width: 100%;
+    margin-top: 15px;
+}
+
 .form-control::placeholder {
     color: #7b7b7b;
     opacity: 1;
 }
 
 .form-group input {
-    border-color: #f3f3f3;
+    /* border-color: #f3f3f3; */
+    border-color:red;
     box-shadow: none;
 }
 
@@ -112,6 +119,4 @@ form {
     box-shadow: none;
 }
 
-button {
-    width: 100%;
-}
+
