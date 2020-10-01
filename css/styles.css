@@ -4,20 +4,19 @@ body {
 
 /* HEADER | Nav Bar */
 
-.navbar-brand{
-    padding-top: 9px;
+.navigator{
+    padding-top:10px;
+    padding-bottom: 10px;
+    background: red;
+    height: 50px;
 }
 
-.navbar-brand img {
-    width:150px;
+.nav-logo-img {
+    width: 150px;
 }
 
-.navbar-header [type="button"]{
-    border-color:  white;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background: #3a8aff;
-    height: 3px;
-
+.nav-hamburger{
+    text-align: right;
+    font-size: 22px;
+    color: #3a8aff;
 }
