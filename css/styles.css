@@ -13,26 +13,33 @@ body {
 
 /* HEADER | Nav Bar */
 
-.navigator{
+
+.navigator .row{
     padding-top:10px;
     padding-bottom: 10px;
-    height: 70px;
 }
 
 .nav-logo-img {
     width: 150px;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .nav-hamburger{
     text-align: right;
     font-size: 22px;
     color: #3a8aff;
+    padding-top: 10px;
 }
 
 ul.nav-list  li {
     line-height: 50px;
     font-size: 15px;
     padding-left: 20px;
-    
+}
+
+/* HEADER | Jumbotron */
+
+.jumbotron {
+    background-image: url(../img/bg-banner-home.jpg);
+    height: 800px;
 }
