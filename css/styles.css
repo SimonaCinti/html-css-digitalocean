@@ -18,6 +18,19 @@ body {
     margin-bottom: 5px;
 }
 
+.jumbotron .title-text h1 {
+    color: white;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
 /* Buttons */
 
 .btn-default{
@@ -65,15 +78,11 @@ ul.nav-list  li {
     margin: 0 auto;
 }
 
-.jumbotron .title-text h1 {
-    color: white;
-    font-weight: 700;
-    margin-top: 0;
-}
+
 
 .jumbotron .title-text p{
     color: white;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /*  HEADER | Jumbotron | form */
@@ -82,11 +91,6 @@ ul.nav-list  li {
     background-color: white;
     border-radius: 5px;
     padding: 15px;
-}
-
-.col-form h2 {
-    font-weight: bold;
-    font-size: 25px;
 }
 
 .col-form .privacy {
@@ -151,4 +155,20 @@ form .submit-button:nth-of-type(2):hover{
 .privacy a{
     text-decoration: underline;
     color: #006aff;
+}
+
+/* ! TABLET VERSION */
+
+@media screen and (min-width: 768px){
+    .jumbotron .h1, .jumbotron h1{
+        font-size: 36px;
+    }
+}
+
+/* ! DESKTOP VERSION */
+
+@media screen and (min-width: 992px){
+    .jumbotron .h1, .jumbotron h1{
+    font-size: 60px;
+    }
 }
