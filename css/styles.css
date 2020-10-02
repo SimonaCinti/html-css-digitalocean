@@ -272,6 +272,24 @@ section.customers{
     border-top: none;
 }
 
+.customers-table tr th {
+    color: white;
+    font-weight: bold;
+}
+
+.customers-table tr td {
+    color: white;
+}
+
+.customers-table tr td a {
+    color: #00c0cb;
+    text-decoration: none;
+}
+
+a .angle{
+    font-size: 10px;
+}
+
 /* ! TABLET VERSION */
 
 @media screen and (min-width: 768px){
@@ -326,5 +344,7 @@ section.customers{
     .jumbotron .h1, .jumbotron h1{
     font-size: 60px;
     }
-    /* MAIN | platforms | image wrapper */
+    .customers-table tr td:last-of-type {
+        text-align: right;
+    }
 }
