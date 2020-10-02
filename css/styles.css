@@ -249,6 +249,10 @@ form .submit-button:nth-of-type(2):hover{
         display: inline-block;
         max-width: 100%;
     }
+
+    .deploy-items-wrapper{
+        padding-top: 50px;
+    }
 }
 
 /* ! DESKTOP VERSION */
