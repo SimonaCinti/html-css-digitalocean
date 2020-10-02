@@ -18,7 +18,6 @@ body {
     padding-bottom:50px;
 }
 
-
 /* Typography */
 
 .text-darkblue{
@@ -41,7 +40,7 @@ body {
 }
 
 h2 {
-    font-size: 34px;
+    font-size: 33px;
 }
 
 p {
@@ -256,6 +255,18 @@ form .submit-button:nth-of-type(2):hover{
     color: #006aff;
 }
 
+/* MAIN | Customers */
+
+section.customers{
+    background-color:#0032ae;
+}
+
+.customers h2 {
+    color: white;
+}
+
+
+
 /* ! TABLET VERSION */
 
 @media screen and (min-width: 768px){
@@ -298,6 +309,9 @@ form .submit-button:nth-of-type(2):hover{
         font-size: 30px;
         transform: translateY(-50%);
     }
+
+    /* MAIN | Customers */
+
 }
 
 /* ! DESKTOP VERSION */
