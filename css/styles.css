@@ -265,6 +265,13 @@ section.customers{
     color: white;
 }
 
+/* MAIN | Customers | table */
+
+.customers-table .first-row th,
+.customers-table .first-row td {
+    border-top: none;
+}
+
 /* ! TABLET VERSION */
 
 @media screen and (min-width: 768px){
