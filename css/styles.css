@@ -334,7 +334,10 @@ a .angle{
         transform: translateY(-50%);
     }
 
-    /* MAIN | Customers */
+    /* MAIN | Customers | Table */
+    .customers-table tr td:last-of-type {
+        text-align: right;
+    }
 
 }
 
@@ -345,7 +348,5 @@ a .angle{
     .jumbotron .h1, .jumbotron h1{
     font-size: 60px;
     }
-    .customers-table tr td:last-of-type {
-        text-align: right;
-    }
+
 }
