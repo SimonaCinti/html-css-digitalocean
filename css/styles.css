@@ -250,6 +250,8 @@ form .submit-button:nth-of-type(2):hover{
         max-width: 100%;
     }
 
+    /* MAIN | deploy items */
+
     .deploy-items-wrapper{
         padding-top: 50px;
     }
