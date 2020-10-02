@@ -290,6 +290,11 @@ section.customers{
 a .angle{
     font-size: 10px;
 }
+/* MAIN | Slide-2 | Slide Img */
+
+.rockerbox-logo {
+    max-width: 300px;
+}
 
 /* ! TABLET VERSION */
 
