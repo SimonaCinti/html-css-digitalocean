@@ -10,6 +10,14 @@ body {
     padding-bottom: 50px;
 }
 
+.pd-t-50{
+    padding-top:50px;
+}
+
+.pd-b-50{
+    padding-bottom:50px;
+}
+
 /* Typography */
 
 .text-darkblue{
@@ -196,6 +204,32 @@ form .submit-button:nth-of-type(2):hover{
 .img-wrapper .git-lab {
     width: 100%;
 }
+
+/* MAIN | deploy */
+
+.deploy-list li p {
+    margin-bottom: 0;
+}
+
+.deploy-list li.list-group-item {
+    border-radius: 0;
+    border: none;
+    border-left: 1px solid #cccccc;
+}
+
+.deploy-items{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.deploy-items h4 {
+    margin-top: 15px;
+}
+
+.deploy-items p {
+    font-size: 16px;
+}
+
 
 /* ! TABLET VERSION */
 
