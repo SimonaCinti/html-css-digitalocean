@@ -28,6 +28,10 @@ body {
     color: #006aff;
 }
 
+.text-black{
+    color: black;
+}
+
 .h1, .h2, .h3, .h4,  h1, h2, h3, h4 {
     margin-top: 5px;
     margin-bottom: 15px;
@@ -294,6 +298,17 @@ a .angle{
 
 .rockerbox-logo {
     max-width: 300px;
+}
+
+p.rockerbox-text{
+    font-size: 22px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+}
+
+p.small.text-black{
+    line-height: 1;
 }
 
 /* ! TABLET VERSION */
