@@ -60,7 +60,6 @@ a.link-to {
     text-decoration: none;
 }
 
-
 /* Buttons */
 
 .btn-default{
@@ -296,9 +295,18 @@ section.customers{
 
 /* MAIN | Customers | table */
 
-.customers-table .first-row th,
+.customers-table .first-row th, 
 .customers-table .first-row td {
-    border-top: none;
+    border-top: 2px solid transparent;
+}
+
+
+.table.customers-table  tr  td, 
+.table.customers-table tr  th {
+	padding: 8px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	border-top: 2px solid #ddd;
 }
 
 .customers-table tr th {
