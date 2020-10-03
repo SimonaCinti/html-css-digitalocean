@@ -308,8 +308,16 @@ a .angle{
 }
 /* MAIN | Slide-2 | Slide Img */
 
-.slide-white {
-    background-color: white;
+
+
+.slide-2-wrapper{
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    background-color:white;
+    max-width: 70%;
+    min-width: 250px;
+
 }
 
 .rockerbox-logo {
@@ -318,8 +326,6 @@ a .angle{
 
 p.rockerbox-text{
     font-size: 22px;
-    padding-left: 100px;
-    padding-right: 100px;
     padding-top: 15px;
 }
 
