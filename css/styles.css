@@ -371,6 +371,26 @@ footer {
     background-color: #031c4e;
 }
 
+.small.copyright{
+    font-size:14px;
+    color: #8993a8;
+    margin-top:15px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.small.made-in{
+    font-size:14px;
+    color: #566584;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.footer-social i {
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 /* ! TABLET VERSION */
 
 @media screen and (min-width: 768px){
