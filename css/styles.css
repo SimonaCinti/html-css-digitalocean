@@ -410,8 +410,7 @@ footer .list-footer li:first-child{
 
 /* HELP BOTTOM BAR */
 .help {
-    background-color: red;
-    
+    background-color: red; /*! debug*/
 }
 
 .shark {
@@ -420,6 +419,7 @@ footer .list-footer li:first-child{
     border-radius: 5px;
     position: relative;
     left: 5%;
+    margin-bottom: 15px;
 }
 
 .shark img {
@@ -440,7 +440,18 @@ footer .list-footer li:first-child{
     position: absolute;
     left: 40px;
     top:-12px;
+}
 
+.baloon-text p{
+    max-width:70%;
+    padding: 10px 20px 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    left: 5%;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: black;
 }
 
 /* ! TABLET VERSION */
