@@ -409,18 +409,15 @@ footer .list-footer li:first-child{
 }
 
 /* HELP BOTTOM BAR */
-.help {
-    background-color: transparent;
-}
 
 .shark {
     width:60px;
     height: 60px;
     background-color: #006aff;
     border-radius: 5px;
-    position: relative;
+    position: fixed;
+    bottom: 15%;
     left: 5%;
-    margin-bottom: 15px;
 }
 
 .shark img {
@@ -452,9 +449,9 @@ footer .list-footer li:first-child{
     padding: 10px 20px 5px 10px;
     background-color: white;
     border-radius: 5px;
-    position: relative;
+    position: fixed;
     left: 5%;
-    margin-bottom: 15px;
+    bottom: 0;
     visibility: hidden;
 }
 
@@ -534,14 +531,14 @@ footer .list-footer li:first-child{
     }
 
     /* HELP BOTTOM BAR */
-    .shark {
-        left: 95%;
-        top: 80px;
+    .shark{
+        left: 90%;
+        bottom: 5%;
     }
 
-    .baloon-text {
-        display: inline-block;
-        left: 58%;
+    .baloon-text{
+        left: 55%;
+        bottom: 5%;
     }
 
 }
