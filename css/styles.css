@@ -314,7 +314,7 @@ section.customers{
 	padding: 8px;
 	line-height: 1.42857143;
 	vertical-align: top;
-	border-top: 2px solid #ddd;
+	border-top: 1px solid #ddd;
 }
 
 .customers-table tr th {
@@ -323,7 +323,7 @@ section.customers{
 }
 
 .customers-table tr td {
-    color: white;
+    color: #a8b8e0;
 }
 
 .customers-table tr td a {
