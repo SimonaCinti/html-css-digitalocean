@@ -38,7 +38,7 @@ body {
 
 .h1, .h2, .h3, .h4,  h1, h2, h3, h4 {
     margin-top: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .jumbotron .title-text h1 {
@@ -67,6 +67,14 @@ a.link-to {
     color: #006aff;
     border-color: #006aff;
     margin-top: 0;
+}
+
+.btn-primary {
+    background: white;
+    color: #006aff;
+    padding: 25px 10px;
+    font-size: 18px;
+    border-radius: 10px;
 }
 
 
