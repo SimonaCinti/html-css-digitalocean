@@ -32,6 +32,10 @@ body {
     color: black;
 }
 
+.text-white {
+    color: white;
+}
+
 .h1, .h2, .h3, .h4,  h1, h2, h3, h4 {
     margin-top: 5px;
     margin-bottom: 15px;
@@ -308,8 +312,6 @@ a .angle{
 }
 /* MAIN | Slide-2 | Slide Img */
 
-
-
 .slide-2-wrapper{
     position: relative;
     left:50%;
@@ -317,7 +319,6 @@ a .angle{
     background-color:white;
     max-width: 70%;
     min-width: 250px;
-
 }
 
 .rockerbox-logo {
@@ -331,6 +332,12 @@ p.rockerbox-text{
 
 p.small.text-black{
     line-height: 1;
+}
+
+/* MAIN | Bottom */
+
+.main-bottom {
+    background-color: #0032ae;
 }
 
 /* ! TABLET VERSION */
