@@ -66,7 +66,6 @@ p {
 
 a.link-to {
     color:#1c79fe;
-    text-decoration: none;
 }
 
 /* Buttons */
@@ -371,6 +370,7 @@ footer {
     background-color: #031c4e;
 }
 
+/* FOOTER | Copyright and Social */
 .small.copyright{
     font-size:14px;
     color: #8993a8;
@@ -388,7 +388,21 @@ footer {
 .footer-social i {
     padding-right: 10px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+/* FOOTER | Links */
+
+footer .list-footer li a {
+    line-height: 2;
+    color: #a1a9b9;
+}
+
+footer .list-footer li:first-child{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 2;
 }
 
 /* ! TABLET VERSION */
