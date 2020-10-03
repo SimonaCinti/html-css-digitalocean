@@ -536,10 +536,12 @@ footer .list-footer li:first-child{
     /* HELP BOTTOM BAR */
     .shark {
         left: 95%;
+        top: 80px;
     }
 
     .baloon-text {
-        left: 64.5%;
+        display: inline-block;
+        left: 58%;
     }
 
 }
@@ -549,12 +551,9 @@ footer .list-footer li:first-child{
 @media screen and (min-width: 1200px){
 
         /* HELP BOTTOM BAR */
-    .shark {
-        left: 95%;
-    }
 
     .baloon-text {
-        left: 70%;
+        left: 65%;
     }
 
 }
