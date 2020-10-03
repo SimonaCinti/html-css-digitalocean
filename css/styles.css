@@ -295,8 +295,8 @@ section.customers{
 
 /* MAIN | Customers | table */
 
-.customers-table .first-row th, 
-.customers-table .first-row td {
+.table.customers-table .first-row th, 
+.table.customers-table .first-row td {
     border-top: 2px solid transparent;
 }
 
