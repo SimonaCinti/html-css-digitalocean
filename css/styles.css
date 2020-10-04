@@ -440,7 +440,7 @@ footer .list-footer li:first-child{
     top:-12px;
 }
 
-.shark:hover  .baloon-text{
+.shark:hover .baloon-text{
     visibility: visible;
 }
 
