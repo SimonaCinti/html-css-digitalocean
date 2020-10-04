@@ -469,7 +469,7 @@ footer .list-footer li:first-child{
     position: absolute;
     right: -5px;
     bottom: 10px;
-    rotate: 45deg;
+    transform: rotate(45deg);
 }
 
 /* ! TABLET VERSION */
