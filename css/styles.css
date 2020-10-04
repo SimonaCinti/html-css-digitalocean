@@ -84,6 +84,11 @@ a.link-to {
     border-radius: 10px;
 }
 
+/* Effects */
+
+.slide-1 [class*="fa-chevron"]:hover{
+    color:#031c4e;
+}
 
 /* HEADER | Nav Bar */
 
