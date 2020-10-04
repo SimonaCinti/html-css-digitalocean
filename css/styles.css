@@ -410,14 +410,20 @@ footer .list-footer li:first-child{
 
 /* HELP BOTTOM BAR */
 
+.help {
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}
+
 .shark {
     width:60px;
     height: 60px;
     background-color: #006aff;
     border-radius: 5px;
-    position: fixed;
-    bottom: 15%;
-    left: 5%;
+    position: absolute;
+    bottom: 100px;
+    left: 15px;
 }
 
 .shark img {
@@ -440,19 +446,14 @@ footer .list-footer li:first-child{
     top:-12px;
 }
 
-.shark:hover .baloon-text{
-    visibility: visible;
-}
-
 .baloon-text {
     max-width:350px;
     padding: 10px 20px 5px 10px;
     background-color: white;
     border-radius: 5px;
-    position: fixed;
-    left: 5%;
-    bottom: 0;
-    visibility: hidden;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
 }
 
 .baloon-text p{   
@@ -469,7 +470,6 @@ footer .list-footer li:first-child{
     right: -5px;
     bottom: 10px;
     rotate: 45deg;
-
 }
 
 /* ! TABLET VERSION */
@@ -531,28 +531,24 @@ footer .list-footer li:first-child{
     }
 
     /* HELP BOTTOM BAR */
+
+    .help {
+        left: 50%;
+        max-width: 500px;
+    }
     .shark{
-        left: 90%;
-        bottom: 5%;
+     left: 80%;
+     bottom: 15px;
     }
 
     .baloon-text{
-        left: 55%;
-        bottom: 5%;
+     left: 10%;
+     bottom: 15px;
+     visibility: hidden;
     }
-
-}
-
-/* ! DESKTOP LARGE */
-
-@media screen and (min-width: 1200px){
-
-        /* HELP BOTTOM BAR */
-
-    .baloon-text {
-        left: 60%;
-    }
-
+    .shark:hover ~ .baloon-text{
+        visibility: visible;
+    }   
 }
 
 
