@@ -1,0 +1,20 @@
+
+/* Buttons */
+.btn-default{
+    color: #006aff;
+    border-color: #006aff;
+    margin-top: 9px;
+}
+
+/* HEADER | Navbar */
+
+.navbar-brand-logo {
+    max-width: 200px;
+    position: relative;
+    bottom: 8px;
+    
+}
+
+.fa-angle-down {
+    padding-left: 8px;
+}
