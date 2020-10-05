@@ -37,7 +37,7 @@
 /* HEADER | Navbar | Mediaquery Responsive */
 
 @media screen and (min-width: 768px) and (max-width: 991.2px) {
-    /* ! Alla media query è stato aggiunto un 0.2 pixel dovuto al comportamento della viewport del  monitor del mio portatile. Standard, sarebbe a 991px */
+    /* ! Alla media query è stato aggiunto un 0.2 pixel dovuto al comportamento della viewport del  monitor del mio portatile. Standard, sarebbe a 991px. Tale comportamento si risolve se si elimina javascript jquery e javascript bootstrap */
     .navbar-toggle {
         display: block;
         position: absolute;
