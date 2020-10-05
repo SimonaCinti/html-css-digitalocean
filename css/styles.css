@@ -530,6 +530,10 @@ footer .list-footer li:first-child{
 /* ! DESKTOP VERSION */
 
 @media screen and (min-width: 992px){
+    /* HEADER | Nav bar */
+    .navigator .row {
+        padding-bottom: 0px;
+    }
     /* HEADER | Jumbotron */
     .jumbotron .h1, .jumbotron h1{
     font-size: 60px;
