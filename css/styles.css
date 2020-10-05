@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color:#6f7b97;
+    cursor: default;
 }
 
 /* DEBUG UTILITIES */
@@ -538,6 +539,9 @@ footer .list-footer li:first-child{
     .jumbotron .h1, .jumbotron h1{
     font-size: 60px;
     }
+    .col-form h2 {
+        font-size: 30px;
+    }
 
     /* HELP BOTTOM BAR */
 
@@ -560,5 +564,17 @@ footer .list-footer li:first-child{
     }   
 }
 
+/* ! LARGE DESKTOP */
+
+@media screen and (min-width: 1200px){
+
+    .shark{
+     left: 90%;
+    }
+
+    .baloon-text{
+     left: 20%;
+    }
+}
 
 
