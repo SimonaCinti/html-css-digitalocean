@@ -28,3 +28,13 @@
 
 /* HEADER | Navbar | Mediaquery Responsive */
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    .navbar-collapse {
+        display: none;
+    }
+}
