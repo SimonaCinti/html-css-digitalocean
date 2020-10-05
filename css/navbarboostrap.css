@@ -3,7 +3,11 @@
 .btn-default{
     color: #006aff;
     border-color: #006aff;
+}
+
+.btn-navbar{
     margin-top: 9px;
+    margin-left: 5px;
 }
 
 /* HEADER | Navbar */
@@ -21,3 +25,6 @@
 .fa-angle-down {
     padding-left: 8px;
 }
+
+/* HEADER | Navbar | Mediaquery Responsive */
+
